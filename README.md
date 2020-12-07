@@ -68,6 +68,12 @@ Run the following in your terminal, then follow the onscreen instructions:
 
 `bash <(curl -L https://github.com/balena-io/wifi-connect/raw/master/scripts/raspbian-install.sh)`
 
+### Deploy with balena
+
+[![balena deploy button](https://www.balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/balena-io/wifi-connect)
+
+[Deploy with balena](https://www.balena.io/docs/learn/deploy/deploy-with-balena-button/) button allows users to perform a single-click deployment and configuration of an application to balenaCloud.W
+
 ### balenaOS
 
 WiFi Connect can be integrated with a [balena.io](http://balena.io) application. (New to balena.io? Check out the [Getting Started Guide](https://balena.io/docs/#/pages/installing/gettingStarted.md).) This integration is accomplished through the use of two shared files:

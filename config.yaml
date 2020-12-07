@@ -1,0 +1,25 @@
+version: "2"
+slug: "wifi-connect"
+name: "Wifi Connect"
+type: "sw.application"
+assets:
+  - url: "https://github.com/balena-io/wifi-connect"
+    name: "repository"
+  - url: "https://github.com/balena-io/wifi-connect/blob/master/docs/images/wifi-connect.png"
+    name: "logo"
+data:
+  description: "Easy WiFi setup for Linux devices from your mobile phone or laptop"
+  # applicationConfigVariables:
+  #   - BALENA_HOST_CONFIG_CONNECTIVITY_CHECK: true
+  # applicationEnvironmentVariables:
+    # - ENV: 'DEV'
+    # - VIDEO_OUTPUT: 'BROWSERBLOCK'
+    # - THREAD_COUNT: 32
+  defaultDeviceType: "raspberrypi3"
+  # supportedDeviceTypes:
+  #   - "raspberry-pi"
+  #   - "raspberry-pi2"
+  #   - "raspberrypi3"
+  #   - "raspberrypi4-64"
+  #   - "fincm3"
+  #   - "intel-nuc"
